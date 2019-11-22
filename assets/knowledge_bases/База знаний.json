@@ -1,0 +1,1587 @@
+{
+    "description": [
+      "База знаний",
+      "\"Языки программирования\"",
+      "Автор: Андрей Гергерт."
+    ],
+    "questions": [
+      {
+        "idx": 1,
+        "question": "Эзотерический ЯП?"
+      },
+      {
+        "idx": 2,
+        "question": "Компилируемый?"
+      },
+      {
+        "idx": 3,
+        "question": "Статическая типизация?"
+      },
+      {
+        "idx": 4,
+        "question": "Явная типизация?"
+      },
+      {
+        "idx": 5,
+        "question": "Позволяет ООП?"
+      },
+      {
+        "idx": 6,
+        "question": "Компилируется в байт-код?"
+      },
+      {
+        "idx": 7,
+        "question": "Требует , в конце выражения?"
+      },
+      {
+        "idx": 8,
+        "question": "Использует begin/end для границ блока?"
+      },
+      {
+        "idx": 9,
+        "question": "Отступы формируют блоки?"
+      },
+      {
+        "idx": 10,
+        "question": "Требует скобок у одиночного if?"
+      },
+      {
+        "idx": 11,
+        "question": "Есть сборщик мусора?"
+      },
+      {
+        "idx": 12,
+        "question": "Символ стрелки (thin. bold) зарезервирован?"
+      },
+      {
+        "idx": 13,
+        "question": "Использует непробельные символы для написания кода?"
+      },
+      {
+        "idx": 14,
+        "question": "Синтаксис содержит только одно слово в разных формах?"
+      }
+    ],
+    "hypothesises": [
+      {
+        "hypothesis": "C#",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.228070175
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.95,
+            "pMinus": 0.333333333
+          },
+          {
+            "question": 4,
+            "pPlus": 0.05,
+            "pMinus": 0.303258145
+          },
+          {
+            "question": 5,
+            "pPlus": 0.95,
+            "pMinus": 0.498687664
+          },
+          {
+            "question": 6,
+            "pPlus": 0.95,
+            "pMinus": 0.097112861
+          },
+          {
+            "question": 7,
+            "pPlus": 0.95,
+            "pMinus": 0.356955381
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 11,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "C/C++",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.95,
+            "pMinus": 0.333333333
+          },
+          {
+            "question": 4,
+            "pPlus": 0.05,
+            "pMinus": 0.303258145
+          },
+          {
+            "question": 5,
+            "pPlus": 0.95,
+            "pMinus": 0.498687664
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.95,
+            "pMinus": 0.097112861
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Java",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.95,
+            "pMinus": 0.333333333
+          },
+          {
+            "question": 4,
+            "pPlus": 0.05,
+            "pMinus": 0.303258145
+          },
+          {
+            "question": 5,
+            "pPlus": 0.95,
+            "pMinus": 0.498687664
+          },
+          {
+            "question": 6,
+            "pPlus": 0.95,
+            "pMinus": 0.097112861
+          },
+          {
+            "question": 7,
+            "pPlus": 0.95,
+            "pMinus": 0.097112861
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 11,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 12,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "GoLang",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.05,
+            "pMinus": 0.578947368
+          },
+          {
+            "question": 3,
+            "pPlus": 0.95,
+            "pMinus": 0.333333333
+          },
+          {
+            "question": 4,
+            "pPlus": 0.95,
+            "pMinus": 0.270341207
+          },
+          {
+            "question": 5,
+            "pPlus": 0.05,
+            "pMinus": 0.521303258
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 12,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Python",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.05,
+            "pMinus": 0.578947368
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.05,
+            "pMinus": 0.303258145
+          },
+          {
+            "question": 5,
+            "pPlus": 0.95,
+            "pMinus": 0.498687664
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.95,
+            "pMinus": 0.204724409
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "PHP",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.05,
+            "pMinus": 0.578947368
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.05,
+            "pMinus": 0.303258145
+          },
+          {
+            "question": 5,
+            "pPlus": 0.95,
+            "pMinus": 0.498687664
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.95,
+            "pMinus": 0.097112861
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 11,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 12,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Perl",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.05,
+            "pMinus": 0.578947368
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.75,
+            "pMinus": 0.277922078
+          },
+          {
+            "question": 5,
+            "pPlus": 0.95,
+            "pMinus": 0.498687664
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.95,
+            "pMinus": 0.097112861
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 11,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 12,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Forth",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.05,
+            "pMinus": 0.303258145
+          },
+          {
+            "question": 5,
+            "pPlus": 0.05,
+            "pMinus": 0.521303258
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.95,
+            "pMinus": 0.204724409
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "LUA",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.05,
+            "pMinus": 0.578947368
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.25,
+            "pMinus": 0.296202532
+          },
+          {
+            "question": 5,
+            "pPlus": 0.95,
+            "pMinus": 0.498687664
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.75,
+            "pMinus": 0.212987013
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Brainfuck",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.95,
+            "pMinus": 0.422572178
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.05,
+            "pMinus": 0.303258145
+          },
+          {
+            "question": 5,
+            "pPlus": 0.05,
+            "pMinus": 0.521303258
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "COW",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.95,
+            "pMinus": 0.422572178
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.95,
+            "pMinus": 0.270341207
+          },
+          {
+            "question": 5,
+            "pPlus": 0.05,
+            "pMinus": 0.521303258
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          }
+        ]
+      },
+      {
+        "hypothesis": "Ruby",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.05,
+            "pMinus": 0.578947368
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.25,
+            "pMinus": 0.296202532
+          },
+          {
+            "question": 5,
+            "pPlus": 0.95,
+            "pMinus": 0.498687664
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.95,
+            "pMinus": 0.204724409
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Objective-C",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.95,
+            "pMinus": 0.333333333
+          },
+          {
+            "question": 4,
+            "pPlus": 0.05,
+            "pMinus": 0.303258145
+          },
+          {
+            "question": 5,
+            "pPlus": 0.95,
+            "pMinus": 0.498687664
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.95,
+            "pMinus": 0.097112861
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Whitespace",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.95,
+            "pMinus": 0.422572178
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.25,
+            "pMinus": 0.296202532
+          },
+          {
+            "question": 5,
+            "pPlus": 0.05,
+            "pMinus": 0.521303258
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Spoon",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.95,
+            "pMinus": 0.422572178
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.5,
+            "pMinus": 0.287179487
+          },
+          {
+            "question": 5,
+            "pPlus": 0.05,
+            "pMinus": 0.521303258
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "R",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.05,
+            "pMinus": 0.578947368
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.05,
+            "pMinus": 0.303258145
+          },
+          {
+            "question": 5,
+            "pPlus": 0.5,
+            "pMinus": 0.51025641
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Pascal",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.95,
+            "pMinus": 0.333333333
+          },
+          {
+            "question": 4,
+            "pPlus": 0.95,
+            "pMinus": 0.270341207
+          },
+          {
+            "question": 5,
+            "pPlus": 0.05,
+            "pMinus": 0.521303258
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.95,
+            "pMinus": 0.097112861
+          },
+          {
+            "question": 9,
+            "pPlus": 0.5,
+            "pMinus": 0.223076923
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Basic",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.75,
+            "pMinus": 0.563636364
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.05,
+            "pMinus": 0.303258145
+          },
+          {
+            "question": 5,
+            "pPlus": 0.05,
+            "pMinus": 0.521303258
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 8,
+            "pPlus": 0.95,
+            "pMinus": 0.097112861
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "Rust",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.95,
+            "pMinus": 0.559055118
+          },
+          {
+            "question": 3,
+            "pPlus": 0.95,
+            "pMinus": 0.333333333
+          },
+          {
+            "question": 4,
+            "pPlus": 0.25,
+            "pMinus": 0.296202532
+          },
+          {
+            "question": 5,
+            "pPlus": 0.05,
+            "pMinus": 0.521303258
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.95,
+            "pMinus": 0.097112861
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 11,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 12,
+            "pPlus": 0.05,
+            "pMinus": 0.408521303
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      },
+      {
+        "hypothesis": "JavaScript",
+        "p": 0.05,
+        "possibilities": [
+          {
+            "question": 1,
+            "pPlus": 0.05,
+            "pMinus": 0.448621554
+          },
+          {
+            "question": 2,
+            "pPlus": 0.05,
+            "pMinus": 0.578947368
+          },
+          {
+            "question": 3,
+            "pPlus": 0.05,
+            "pMinus": 0.363408521
+          },
+          {
+            "question": 4,
+            "pPlus": 0.5,
+            "pMinus": 0.287179487
+          },
+          {
+            "question": 5,
+            "pPlus": 0.95,
+            "pMinus": 0.498687664
+          },
+          {
+            "question": 6,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 7,
+            "pPlus": 0.5,
+            "pMinus": 0.117948718
+          },
+          {
+            "question": 8,
+            "pPlus": 0.05,
+            "pMinus": 0.137844612
+          },
+          {
+            "question": 9,
+            "pPlus": 0.05,
+            "pMinus": 0.240601504
+          },
+          {
+            "question": 10,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 11,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 12,
+            "pPlus": 0.95,
+            "pMinus": 0.380577428
+          },
+          {
+            "question": 13,
+            "pPlus": 0.95,
+            "pMinus": 0.900262467
+          },
+          {
+            "question": 14,
+            "pPlus": 0.05,
+            "pMinus": 0.904761905
+          }
+        ]
+      }
+    ]
+  }
