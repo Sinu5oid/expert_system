@@ -1,14 +1,16 @@
 <template>
   <div id="app" class="ui segment">
     <file-loader v-if="!contentLoaded" @load="onLoad" @error="onError"/>
-    <div v-else class="ui secondary segment">
-      <div v-if="errorMessage" class="ui negative error message">
+    <div v-if="errorMessage" class="ui secondary segment">
+      <div class="ui negative error message">
         <div class="header">
           Error occured
         </div>
         {{errorMessage}}
       </div>
-      <template v-else>
+    </div>
+    <template v-else-if="contentLoaded">
+      <div class="ui secondary segment">
         <div class="ui bulleted list">
           <div
             v-for="(description, idx) in rules.description"
@@ -18,8 +20,11 @@
           </div>
         </div>
         <div class="ui divider"/>
-        <solver :rules="rules" :max-bound="maxBound"/>
-      </template>
+        <solver :rules="rules" :max-bound="maxBound" @finish="onFinish"/>
+      </div>
+    </template>
+    <div v-if="hasResults" class="ui center aligned segment">
+      <button @click="window.location.reload(true)">Reload</button>
     </div>
   </div>
 </template>
@@ -38,6 +43,7 @@ export default {
     return {
       contentLoaded: false,
       errorMessage: undefined,
+      hasResults: false,
       rules: {
         description: [],
         questions: [],
@@ -54,8 +60,10 @@ export default {
     },
     onError(message) {
       this.errorMessage = message;
-      this.contentLoaded = true;
-    }
+    },
+    onFinish(result) {
+      this.hasResults = result;
+    },
   },
 }
 </script>

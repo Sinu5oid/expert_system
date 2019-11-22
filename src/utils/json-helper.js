@@ -55,6 +55,7 @@ export function parseFromJson(jsonString) {
     throw Error("no json content provided");
   }
   const obj = JSON.parse(jsonString);
+  console.log(obj);
   if (
     !obj ||
     !obj.description ||
@@ -63,7 +64,7 @@ export function parseFromJson(jsonString) {
     !obj.description.length ||
     !obj.questions.length ||
     !obj.hypothesises.length ||
-    obj.hypothesises.some(h => h.some(p => Object.keys(p).length !== 3))
+    obj.hypothesises.some(h => h.possibilities.some(p => Object.keys(p).length !== 3))
   ) {
     throw Error("invalid json content");
   }

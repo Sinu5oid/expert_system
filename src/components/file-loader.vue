@@ -25,20 +25,20 @@ export default {
         if (!event.target.files.length) {
           return;
         }
+        const fileName = event.target.files[0].name;
+        if (!fileName.includes('.mkb') && !fileName.includes('.json')) {
+          throw Error('incompatible content');
+        }
         const reader = new FileReader();
         reader.onload = e => {
           this.isLoading = true;
           setTimeout(() => {
             try {
-              const fileName = event.target.files[0].name;
-              if (!fileName.includes('.mkb') && !fileName.includes('.json')) {
-                throw Error('incompatible content');
-              }
               const object = reader.result;
               let json;
               if (fileName.includes('.mkb')) {
                 const fromMkb = parseFromMkb(object);
-                json = JSON.stringify(fromMkb);
+                json = JSON.stringify(fromMkb, null, 2);
                 this.download(json, `${fileName.replace('.mkb', '')}.json`, 'application/json');
                 this.$emit('load', fromMkb);
               } else {
@@ -52,7 +52,8 @@ export default {
             }
           }, 500);
         }
-        reader.readAsText(event.target.files[0], 'Windows-1251');
+        const encoding = fileName.includes('.mkb') ? 'Windows-1251' : 'UTF-8';
+        reader.readAsText(event.target.files[0], encoding);
       } catch (error) {
         this.$emit('error', error.message);
       }
