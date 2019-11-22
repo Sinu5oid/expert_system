@@ -23,8 +23,25 @@
         <solver :rules="rules" :max-bound="maxBound" @finish="onFinish"/>
       </div>
     </template>
-    <div v-if="hasResults" class="ui center aligned segment">
-      <button @click="window.location.reload(true)">Reload</button>
+    <div class="ui basic modal">
+      <div class="ui icon header">
+        <i class="redo icon"></i>
+        Reload the page?
+      </div>
+      <div class="content">
+        <p>Consultation has been ended</p>
+        <p>You can reload the page now or later yourself using the browser buttons</p>
+      </div>
+      <div class="actions">
+        <div class="ui red basic cancel inverted button">
+          <i class="window close icon"></i>
+          Close this modal
+        </div>
+        <div class="ui green ok inverted button" @click="reloadPage">
+          <i class="redo icon"></i>
+          Reload the page
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -62,8 +79,13 @@ export default {
       this.errorMessage = message;
     },
     onFinish(result) {
-      this.hasResults = result;
+      setTimeout(() => {
+        $('.ui.basic.modal').modal('show');
+      }, 500);
     },
+    reloadPage() {
+      window.location.reload(true);
+    }
   },
 }
 </script>
