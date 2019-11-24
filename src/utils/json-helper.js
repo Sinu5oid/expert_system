@@ -55,7 +55,6 @@ export function parseFromJson(jsonString) {
     throw Error("no json content provided");
   }
   const obj = JSON.parse(jsonString);
-  console.log(obj);
   if (
     !obj ||
     !obj.description ||
